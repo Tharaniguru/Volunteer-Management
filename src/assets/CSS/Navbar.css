@@ -1,0 +1,23 @@
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(15, 107, 255);
+    color: beige;
+    margin: 0;
+    padding: 10px;
+
+
+
+}
+li{
+    cursor: pointer;
+}
+li:hover{
+    color: rgb(10, 10, 10);
+    border-radius: 10px;
+    
+
+
+}
