@@ -7,7 +7,7 @@ import Fund from './components/Fund.jsx'
 import Home from './components/Home.jsx'
 import Footer from './components/Footer.jsx'
 import Services from './components/Services.jsx'
-import Signup from './components/signup.jsx'
+import MyForm from './components/Signup.jsx'
 import Login from './components/Login.jsx'
 
 
@@ -25,7 +25,7 @@ function App() {
           <Route path="/fund" element = {<Fund/>} />
           <Route path="/register" element = {<Register/>} />
           <Route path='/services' element={<Services/>}/>
-          <Route path='/signup' element={<Signup/>}/>
+          <Route path='/signup' element={<MyForm/>}/>
           <Route path ='/login' element={<Login/>}/>
         </Routes>
         <Footer/>
