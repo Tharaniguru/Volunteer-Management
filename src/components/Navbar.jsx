@@ -11,6 +11,9 @@ export default function Navbar() {
             <li><Link to ="/services">Services</Link></li>
             <li><Link to ="/fund">Fund</Link></li>
             <li><Link to ="/register">Register</Link></li>
+            <li><Link to ="/signup">SignUp</Link></li>
+            <li><Link to ="/login">Login</Link></li>
+            
         </ul>
       </nav>
     </div>

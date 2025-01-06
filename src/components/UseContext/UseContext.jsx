@@ -1,5 +1,5 @@
 // import React from 'react'
-import Comp2 from "./comp2";
+import Comp2 from "./Comp2";
 import React from "react";
 
 // var ThemeProvider = React.createContext();
