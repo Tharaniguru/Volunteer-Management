@@ -10,8 +10,10 @@ var app = express()
 const PORT =3001
 app.use(cors())
 app.use(express.json())
+var env=require('dotenv')
+env.config()
 
-mdb.connect('mongodb://localhost:27017/tutorial').then(()=>{ // if local  host is not recognised use "mongodb://127.0.0.1:27017/"
+mdb.connect(process.env.MONGO_URL).then(()=>{ // if local  host is not recognised use "mongodb://127.0.0.1:27017/"
     console.log("Mongo DB connection successful");
 }).catch(()=>{
     console.log("check your connnection string");
