@@ -4,7 +4,7 @@
 var express = require ('express')
 var path = require('path')
 var mdb = require('mongoose')
-var user = require('../Backend/models/users')
+var user = require('./models/users')
 var cors=require('cors')
 var app = express()
 const PORT =3001
